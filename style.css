@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&family=Secular+One&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    color: white;
+    margin: 0;
+    background-color:#131921 ;
+}
+
+.logoAmazon{
+    padding-top: 1em;
+    margin-left: 3em;
+    padding-bottom: 1em;
+}
+
+.logoAmazon img{
+    height: 4em;
+    margin: 0;
+    cursor: pointer;
+}
+
+nav{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #232F3E;
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+nav a{
+    
+    padding-left: 1em;
+    color: white;
+    text-decoration: dashed;
+}
+
+main{
+
+    margin: 0;
+    padding-top: 2em;
+    text-align: center;
+    background-color: #EAEDED;
+}
+
+main div:first-child{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 90%;
+    background-color: orangered;
+    color: white;
+}
+
+main div:first-child p{
+
+    padding: 0.3em;
+    margin: 0;
+}
+
+main div:first-child + div{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-image: url(./assets/bg-image.png);
+    text-align: center;
+    color: white;
+    font-weight: 200px;
+}
+
+#perfect-gift{
+    text-align: left;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 90%;
+    background-color: white;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+main p {
+    margin-top: 0;
+}
+main p a{
+    margin-left: 0.8em;
+}
+
+#perfect-gift p{
+    margin-left: 1em;
+}
+#perfect-gift p a{
+    margin-left: 0.8em;
+}
+.img-inline{
+    height: 20em;
+    width: 15em;
+    margin: 1em;
+    border-radius: 1em;
+    box-shadow: 10px 10px 10px #272626;
+    cursor: pointer;
+}
+.big-img{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.big-img img{
+    width: 100%;
+}
+
+#pre-footer{
+    padding: 1em;
+    background-color: #232F3E;
+    font-size: 1,2em;
+    text-align: center;
+}
+
+#pre-footer a{
+    color: white;
+}
+
+footer{
+    padding-top: 2em;
+    text-align: center;
+    background-color:#131921 ;
+}
